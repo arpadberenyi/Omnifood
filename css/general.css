@@ -170,7 +170,7 @@ body {
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
 
-    /* Only necessary  fot .btn*/
+    /* Only necessary  for .btn*/
     border: none;
     cursor: pointer;
     font-family: inherit;
