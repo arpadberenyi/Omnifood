@@ -24,10 +24,10 @@ Insted, 1rem = 1em = 16px */
 /* BELOW 1200px (Landscape Tablets) */
 /****************************/
 
-/* 1200px / 16px = 75 */
+/*  1200px / 16px = 75  */
 @media (max-width: 75em) {
   html {
-    /* 9px / 16px = 56.25%  */
+    /*  9px / 16px = 56.25%   */
     font-size: 56.25%;
   }
 
