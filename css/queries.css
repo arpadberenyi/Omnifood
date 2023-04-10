@@ -1,27 +1,65 @@
 /* rem and em do NOT depend on html font-size in media queries!
 Insted, 1rem = 1em = 16px */
 
-
 /****************************/
 /* BELOW 1344px (Smaller desktops) */
 /****************************/
 
-@media (max-width: 84em) { /* 1350 / 16 = 84 */
-    .hero {
-        max-width: 120rem;
-    }
+/* 1350px / 16px = 84 */
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
 
-    .heading-primary {
-        font-size: 4.4rem;
-    }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
 
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
+/****************************/
+/* BELOW 1200px (Landscape Tablets) */
+/****************************/
 
+/* 1200px / 16px = 75 */
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px = 56.25%  */
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
 
 /* - FONT SIZE (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
